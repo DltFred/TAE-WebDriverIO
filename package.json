@@ -20,7 +20,8 @@
     "oneTest": "wdio run ./wdio.conf.js --spec ./test/specs/LoginTest.js",
     "baseTest": "wdio run ./wdio.conf.js --spec ./test/specs/baseTest.js",
     "runSuite": "wdio wdio.conf.js --suite end2end",
-    "allureReport": "allure generate allure-results/ --clean && allure open"
+    "allureReport": "allure generate allure-results/ --clean && allure open",
+    "clickTest": "wdio run ./wdio.conf.js --spec ./test/specs/clickTest.js"
   },
   "dependencies": {
     "allure-commandline": "^2.21.0"
